@@ -1,13 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>piedemonte</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <img src="images/logo.svg" alt="piedemonte colectivo">
+  <header>
+    <img src="images/logo.svg" alt="piedemonte colectivo">
+  </header>
+
+  <!-- description -->
+  <div class="description" id="description">
+    <p>
+      Todos nuestros productos son fabricados a mano por artesanos de nuestro pais, por tal razón no son idénticos entre
+      ellos y tienen un tiempo de fabricación de 20 días hábiles aproximadamente.
+      Los valores indicados a continuación incluyen IVA*
+    </p>
+    <h1 class="description__title">Piedemonte colectivo</h1>
+  </div>
+
+
+  <!-- sería bueno optimizar esta parte de código para no quemarlo sino crear -->
+
+  <!-- collections -->
+  <div class="collection" id="collections">
+
+    <div class="collection__card">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/collections/rionegro-silla/rionegro-silla-2.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/collections/rionegro-mesa/rionegro-mesa-1.png" alt=""></div>
+          <div class="swiper-slide"><img src="images/collections/rionegro-mesa/rionegro-mesa-2.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="collection__product">
+        <h2 class="collection__product--title">MESA RIONEGRO</h2>
+        <div class="collection__product--measure">
+          <p><b>Medidas</b></p>
+          <p><b>(Ancho x Fondo x Alto)</b></p>
+          <p>45 cm x 45 cm x 45 cm</p>
+        </div>
+        <div class="collection__product--color">
+          <p><b>Color</b></p>
+          <div class="collection__product--colors">
+            <div style="background: #9B9D8F" class="color"></div>
+            <div style="background: #6D777B" class="color"></div>
+            <div style="background: #8F9EB1" class="color"></div>
+            <div style="background: #132E56" class="color"></div>
+            <div style="background: #9AB0A0" class="color"></div>
+            <div style="background: #628C72" class="color"></div>
+            <div style="background: #F4D84C" class="color"></div>
+            <div style="background: #906D2C" class="color"></div>
+            <div style="background: #90182A" class="color"></div>
+            <div style="background: #671531" class="color"></div>
+          </div>
+        </div>
+        <div class="collection__product--price">
+          <p>$687.000cop</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!-- slider -->
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-4.png" alt="">
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <h2>MESA RIONEGRO</h2>
+      <p>Medidas</p>
+      <p>Color</p>
+      <div>
+        <div>(colors)</div>
+      </div>
+      <p>$687.000cop</p>
+      <a href=""></a>
+    </div>
+
+    <div>
+      <!-- slider -->
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/collections/rionegro-silla/rionegro-silla-4.png" alt="">
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <h2>MESA RIONEGRO</h2>
+      <p>Medidas</p>
+      <p>Color</p>
+      <div>
+        <div>(colors)</div>
+      </div>
+      <p>$687.000cop</p>
+      <a href=""></a>
+    </div>
+
+  </div>
+
+  <!-- ubicación productos -->
+  <div id="sales">
+
+  </div>
+
+  <!-- nosotros -->
+  <!-- <div class="us">
+    <h1>nacimos en el piedemonte</h1>
+    <p>def. Terreno que está justo al pie de la montaña.</p>
+  </div> -->
+
+  <footer class="footer">
+    <ul class="footer__sections">
+      <li>colleciones</li>
+      <li>fotos</li>
+      <li>productos</li>
+    </ul>
+    <div>
+      <p>© 2022 piedemonte colectivo</p>
+    </div>
+  </footer>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
 </body>
+
 </html>
