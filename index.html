@@ -7,11 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>piedemonte</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/rolly.js@<VERSION>/css/style.css">
+  <script src="https://unpkg.com/rolly.js@<VERSION>/dist/rolly.min.js"></script>
+
+
 </head>
 
 <body>
+
   <header>
-    <img src="images/logo.svg" alt="piedemonte colectivo">
+    <img src="images/main/header.png" alt="piedemonte colectivo">
   </header>
 
   <!-- description -->
@@ -21,7 +26,6 @@
       ellos y tienen un tiempo de fabricación de 20 días hábiles aproximadamente.
       Los valores indicados a continuación incluyen IVA*
     </p>
-    <h3 class="description__title">Piedemonte colectivo</h3>
   </div>
 
 
@@ -29,535 +33,527 @@
 
   <!-- collections -->
   <div class="products">
-    <h1 class="description__title">Productos</h>
-      <div class="collection" id="collections">
-       
-       
-        <!-- MESA RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/mesa.png" alt="mesa-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">MESA RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>45 cm x 45 cm x 45 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>687.000 COP</p>
+    <h1 class="description__title">Productos</h1>
+    <div class="collection" id="collections">
+
+      <!-- MESA RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/mesa.png" alt="mesa-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">MESA RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>45 cm x 45 cm x 45 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
             </div>
           </div>
-        </div>
-
-
-
-        <!-- SILLA RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/silla.png" alt="silla-piedmeonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">SILLA RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>40 cm x 40 cm x 84 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>482.000 COP</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SILLA TIPO BAR RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/silla-bar.png" alt="silla-tipo-bar">
-          <div class="collection__product">
-            <h2 class="collection__product--title">SILLA TIPO BAR RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>40 cm x 40 cm x 84 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>611.000 COP</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- BASE PARA PLANTAS RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/base-para-plantas.png" alt="matera-balcon-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">BASE PARA PLANTAS RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>89 cm x 12.5 cm x 55.5 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>816.000 COP</p>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- MATERA BALCÓN RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/matera-balcon.png" alt="matera-balcon-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">MATERA BALCÓN RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>37 cm x 15 cm x 44.5 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>449.000 COP</p>
-              <p>Incluye planta*</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- HUERTA UNO RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/huerta-uno.png" alt="huerta-uno-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">HUERTA UNO RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>92 cm x 20 cm x 225 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>3.461.000 COP</p>
-              <p>Incluye plantas e instalación*</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- HUERTA DOS RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/huerta-dos.png" alt="huerta-dos-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">HUERTA DOS RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>70 cm x 20 cm x 265 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>3.063.000 COP</p>
-              <p>Incluye plantas e instalación*</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- HUERTA TRES RIONEGRO -->
-        <div class="collection__card">
-          <img src="images/products/huerta-tres.png" alt="huerta-tres-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">HUERTA TRES RIONEGRO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>230 cm x 20 cm x 170 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>3.025.000 COP</p>
-              <p>Incluye plantas e instalación*</p>
-            </div>
-          </div>
-        </div>
-
-
-
-        <!-- RETRATO UNO -->
-        <div class="collection__card">
-          <img src="images/products/retrato-uno.png" alt="retrato-uno-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">RETRATO UNO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>63 cm x 10 cm x 59 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>290.000 COP</p>
-            </div>
-          </div>
-
-
-        </div>
-        <!-- RETRATO DOS -->
-        <div class="collection__card">
-          <img src="images/products/retrato-dos.png" alt="">
-          <div class="collection__product">
-            <h2 class="collection__product--title">RETRATO DOS</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>56 cm x 7 cm x 46 cm</p>
-              <p>espejo 40 cm / diámetro</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>570.000 COP</p>
-            </div>
-          </div>
-        </div>
-        <!-- MATERA EQUINOCIO DOS -->
-        <div class="collection__card">
-          <img src="images/products/matera-equinocio.png" alt="matera-equinocio-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">MATERA EQUINOCIO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>45 cm x 45 cm x 45 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>641.000 COP (grande) - 552.000 COP (pequeña)</p>
-              <p>Incluye planta*</p>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- MATERA SOLSITICIO -->
-        <div class="collection__card">
-          <img src="images/products/solsticio.png" alt="matera-solsticio-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">MATERA SOLSITICIO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>41 cm x 10 cm x 60 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>616.000 COP</p>
-              <p>Incluye planta*</p>
-            </div>
-          </div>
-        </div>
-        <!-- MATERA ECLIPSE -->
-        <div class="collection__card">
-          <img src="images/products/eclipse.png" alt="matera-eclipse-piedemonte">
-          <div class="collection__product">
-            <h2 class="collection__product--title">MATERA ECLIPSE</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>10 cm x 21 cm x 40 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>487.000 COP</p>
-              <p>Incluye planta*</p>
-            </div>
-          </div>
-        </div>
-        <!-- BIBLIOTECA EL RUANO -->
-        <div class="collection__card">
-          <img src="images/products/el-ruano.png" alt="biblioteca-el-ruano">
-          <div class="collection__product">
-            <h2 class="collection__product--title">BIBLIOTECA EL RUANO</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>45 cm x 45 cm x 45 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>290.000 COP</p>
-            </div>
-          </div>
-        </div>
-        <!-- CAMPECHE -->
-        <div class="collection__card">
-          <img src="images/products/campeche.png" alt="piedemonte-campeche">
-          <div class="collection__product">
-            <h2 class="collection__product--title">CAMPECHE</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>54 cm x 40 cm x 55 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #6D777B" class="color"></div>
-                <div style="background: #8F9EB1" class="color"></div>
-                <div style="background: #132E56" class="color"></div>
-                <div style="background: #9AB0A0" class="color"></div>
-                <div style="background: #628C72" class="color"></div>
-                <div style="background: #F4D84C" class="color"></div>
-                <div style="background: #906D2C" class="color"></div>
-                <div style="background: #90182A" class="color"></div>
-                <div style="background: #671531" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>652.000 COP</p>
-            </div>
-          </div>
-        </div>
-        <!-- HAMACA MININA -->
-        <div class="collection__card">
-          <img src="images/products/hamaca-minina.png" alt="piedemonte-hamaca-minina">
-          <div class="collection__product">
-            <h2 class="collection__product--title">HAMACA MININA</h2>
-            <div class="collection__product--measure">
-              <p><b>Medidas</b></p>
-              <p><b>(Ancho x Fondo x Alto)</b></p>
-              <p>45 cm x 20 cm x 10 cm</p>
-            </div>
-            <div class="collection__product--color">
-              <p><b>Color</b></p>
-              <div class="collection__product--colors">
-                <div style="background: #E0E0DF" class="color"></div>
-                <div style="background: #191818" class="color"></div>
-                <div style="background: #9B9D8F" class="color"></div>
-                <div style="background: #5C6665" class="color"></div>
-                <div style="background: #8BA08B" class="color"></div>
-              </div>
-            </div>
-            <div class="collection__product--price">
-              <p><b>Precio</b></p>
-              <p>290.000 COP</p>
-            </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>687.000 COP</p>
           </div>
         </div>
       </div>
+
+      <!-- SILLA RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/silla.png" alt="silla-piedmeonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">SILLA RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>40 cm x 40 cm x 84 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>482.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SILLA TIPO BAR RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/silla-bar.png" alt="silla-tipo-bar">
+        <div class="collection__product">
+          <h2 class="collection__product--title">SILLA TIPO BAR RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>40 cm x 40 cm x 84 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>611.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BASE PARA PLANTAS RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/base-para-plantas.png" alt="matera-balcon-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">BASE PARA PLANTAS RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>89 cm x 12.5 cm x 55.5 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>816.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MATERA BALCÓN RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/matera-balcon.png" alt="matera-balcon-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">MATERA BALCÓN RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>37 cm x 15 cm x 44.5 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>449.000 COP</p>
+            <p>Incluye planta*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- HUERTA UNO RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/huerta-uno.png" alt="huerta-uno-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">HUERTA UNO RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>92 cm x 20 cm x 225 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>3.461.000 COP</p>
+            <p>Incluye plantas e instalación*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- HUERTA DOS RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/huerta-dos.png" alt="huerta-dos-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">HUERTA DOS RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>70 cm x 20 cm x 265 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>3.063.000 COP</p>
+            <p>Incluye plantas e instalación*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- HUERTA TRES RIONEGRO -->
+      <div class="collection__card">
+        <img src="images/products/huerta-tres.png" alt="huerta-tres-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">HUERTA TRES RIONEGRO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>230 cm x 20 cm x 170 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>3.025.000 COP</p>
+            <p>Incluye plantas e instalación*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RETRATO UNO -->
+      <div class="collection__card">
+        <img src="images/products/retrato-uno.png" alt="retrato-uno-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">RETRATO UNO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>63 cm x 10 cm x 59 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>290.000 COP</p>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- RETRATO DOS -->
+      <div class="collection__card">
+        <img src="images/products/retrato-dos.png" alt="">
+        <div class="collection__product">
+          <h2 class="collection__product--title">RETRATO DOS</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>56 cm x 7 cm x 46 cm</p>
+            <p>espejo 40 cm / diámetro</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>570.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MATERA EQUINOCIO DOS -->
+      <div class="collection__card">
+        <img src="images/products/matera-equinocio.png" alt="matera-equinocio-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">MATERA EQUINOCIO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>45 cm x 45 cm x 45 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>641.000 COP (grande) - 552.000 COP (pequeña)</p>
+            <p>Incluye planta*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MATERA SOLSITICIO -->
+      <div class="collection__card">
+        <img src="images/products/solsticio.png" alt="matera-solsticio-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">MATERA SOLSITICIO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>41 cm x 10 cm x 60 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>616.000 COP</p>
+            <p>Incluye planta*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MATERA ECLIPSE -->
+      <div class="collection__card">
+        <img src="images/products/eclipse.png" alt="matera-eclipse-piedemonte">
+        <div class="collection__product">
+          <h2 class="collection__product--title">MATERA ECLIPSE</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>10 cm x 21 cm x 40 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>487.000 COP</p>
+            <p>Incluye planta*</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIBLIOTECA EL RUANO -->
+      <div class="collection__card">
+        <img src="images/products/el-ruano.png" alt="biblioteca-el-ruano">
+        <div class="collection__product">
+          <h2 class="collection__product--title">BIBLIOTECA EL RUANO</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>45 cm x 45 cm x 45 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>290.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAMPECHE -->
+      <div class="collection__card">
+        <img src="images/products/campeche.png" alt="piedemonte-campeche">
+        <div class="collection__product">
+          <h2 class="collection__product--title">CAMPECHE</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>54 cm x 40 cm x 55 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #6D777B" class="color"></div>
+              <div style="background: #8F9EB1" class="color"></div>
+              <div style="background: #132E56" class="color"></div>
+              <div style="background: #9AB0A0" class="color"></div>
+              <div style="background: #628C72" class="color"></div>
+              <div style="background: #F4D84C" class="color"></div>
+              <div style="background: #906D2C" class="color"></div>
+              <div style="background: #90182A" class="color"></div>
+              <div style="background: #671531" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>652.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- HAMACA MININA -->
+      <div class="collection__card">
+        <img src="images/products/hamaca-minina.png" alt="piedemonte-hamaca-minina">
+        <div class="collection__product">
+          <h2 class="collection__product--title">HAMACA MININA</h2>
+          <div class="collection__product--measure">
+            <p><b>Medidas</b></p>
+            <p><b>(Ancho x Fondo x Alto)</b></p>
+            <p>45 cm x 20 cm x 10 cm</p>
+          </div>
+          <div class="collection__product--color">
+            <p><b>Color</b></p>
+            <div class="collection__product--colors">
+              <div style="background: #E0E0DF" class="color"></div>
+              <div style="background: #191818" class="color"></div>
+              <div style="background: #9B9D8F" class="color"></div>
+              <div style="background: #5C6665" class="color"></div>
+              <div style="background: #8BA08B" class="color"></div>
+            </div>
+          </div>
+          <div class="collection__product--price">
+            <p><b>Precio</b></p>
+            <p>290.000 COP</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 
@@ -565,7 +561,6 @@
   <div class="photos">
     <h1>fotografía</h1>
     <div>
-
       <!-- slide 1 -->
       <div class="swiper-f mySwiper2">
         <div class="swiper-wrapper">
@@ -581,7 +576,7 @@
       </div>
 
       <!-- slide 2 -->
-      <div class="swiper-l mySwiper2">
+      <div class="swiper-l mySwiper3">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="images/slider-f/slider-f-2.jpg" alt="" loading="lazy"></div>
           <div class="swiper-slide"><img src="images/slider-f/slider-f-3.jpg" alt="" loading="lazy"></div>
@@ -593,29 +588,30 @@
         </div>
         <div class="swiper-pagination2"></div>
       </div>
-
-
     </div>
   </div>
 
+  <!-- a la orden sumercé -->
+  <div class="sumerce" id="sales">
+    <h3>a la orden sumercé</h3>
+  </div>
 
   <!-- contactanos -->
   <div class="contact" id="sales">
     <div class="contact__instagram">
-      <p>instagram</p>
+      <a>instagram</a>
     </div>
     <div class="contact__whatsapp">
-      <p>whatsapp</p>
+      <a>whatsapp</a>
     </div>
   </div>
 
-  <!-- nosotros -->
-  <!-- <div class="us">
-    <h1>nacimos en el piedemonte</h1>
-    <p>def. Terreno que está justo al pie de la montaña.</p>
-  </div> -->
+  <div class="team">
+    <img src="images/main/piedemonte.jpg" alt="piedemonte-colectivo">
+  </div>
 
-  <footer class="footer">
+
+  <div class="footer">
     <ul class="footer__sections">
       <li>colleciones</li>
       <li>fotos</li>
@@ -624,7 +620,7 @@
     <div>
       <p>© 2022 piedemonte colectivo</p>
     </div>
-  </footer>
+  </div>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -637,13 +633,43 @@
       pagination: {
         el: '.swiper-pagination',
       },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        }
+      }
     });
 
-
     var swiper2 = new Swiper(".mySwiper2", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      loop: true
+      slidesPerView: 2,
+      centeredSlides: true,
+      spaceBetween: 10,
+      grabCursor: true,
+      loop: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 2
+        },
+        768: {
+          slidesPerView: 3
+        }
+      }
+    });
+
+    var swiper3 = new Swiper(".mySwiper3", {
+      slidesPerView: 2,
+      spaceBetween: 10,
+      grabCursor: true,
+      loop: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 2
+        },
+        768: {
+          slidesPerView: 3
+        }
+      }
     });
   </script>
 
